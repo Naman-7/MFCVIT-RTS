@@ -1,0 +1,30 @@
+ol {
+    list-style-type: none;
+  }
+  
+  li {
+    position: relative;
+    margin: 0;
+    padding-bottom: 0em;
+    padding-left: 5px;
+  }
+  
+  li:before {
+    content: '';
+    font-family: Arial;
+    background-color: #000080;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 5px;
+    width: 20px;
+  }
+  
+  
+  li:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 10px;
+    width: 10px;
+  }
